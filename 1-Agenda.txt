@@ -14,3 +14,5 @@ Day-2 Asynchronous Programming
     - Promises
     - API Call  
     - Aync-Await
+
+Day-3 Event Handling
