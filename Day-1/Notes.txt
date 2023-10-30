@@ -1,0 +1,11 @@
+ES->Ecma Script
+2015 -> ES6
+What is ES6?
+    - variables (Let, Var and Const), Scopes (Block Scope)
+    - Arrow Function
+    - Destructuring
+    - Restructuring
+    - Rest Operator
+    - Spread Operator
+    - Template String
+    - Class and Objects

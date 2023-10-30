@@ -1,0 +1,29 @@
+Assignment 1: Rest Operator
+Write a JavaScript function that uses the rest operator to accept a variable number of arguments and returns their sum.
+
+Assignment 2: Spread Operator
+Create an array of numbers and use the spread operator to pass these numbers as arguments to a function that finds the maximum value in the array.
+
+Assignment 3: Destructuring
+Given an object with properties name and age, use destructuring to extract and print these properties in a single line of code.
+
+Assignment 4: Structuring
+Create a nested object structure that represents a library catalog. Use proper structuring to organize books by genre and author.
+
+Assignment 5: Scopes
+Write a JavaScript function that demonstrates the difference between var, let, and const in terms of variable scoping. Explain your findings.
+
+Assignment 6: Template Strings
+Create a template string that generates an HTML template for a blog post. The template should include placeholders for the title, author, and content of the blog post.
+
+Assignment 7: Arrow Functions
+Convert a traditional function that adds two numbers into an arrow function. Test the arrow function with different sets of numbers.
+
+Assignment 8: Class/Object Concepts
+Create a class representing a car. The class should have properties for make, model, and year. It should also have a method that calculates the age of the car based on the current year.
+
+Assignment 9: Rest Operator with Functions
+Write a function that accepts an arbitrary number of arguments and calculates their average using the rest operator.
+
+Assignment 10: Destructuring with Arrays
+Given an array of objects representing students, use destructuring to extract the name and grade of each student and store them in a new array.
