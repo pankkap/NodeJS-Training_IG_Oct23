@@ -1,2 +1,0 @@
-Create a Weather App as per attached gig Image.
-API: https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/noida?key=4F5UJPBN3FA7KA3VU8S75TWHZ
