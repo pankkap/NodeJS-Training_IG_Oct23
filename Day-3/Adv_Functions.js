@@ -9,7 +9,7 @@ let arr = new Array(1,2,3,4,5)
 // Map Function
 let newArr = arr.map(i=>i*3)
 console.log(newArr);
-console.log(arr);
+console.log(arr, "Hello");
 
 // Reduce Function
 let FinalValue = arr.reduce((a,b)=>a+b)
