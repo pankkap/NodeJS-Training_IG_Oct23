@@ -1,12 +1,12 @@
 body {
-    background-image: url("./natures-beauty-reflected-tranquil-mountain-waters-generative-ai.jpg");
+    background-image: url("./forest-3622519_1280.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: inherit;
   }
   
   h1{
-    color: white;
+    color: black;
     font-family: 'Courier New', Courier, monospace;
     margin-left: 42%;
   }
@@ -24,7 +24,7 @@ body {
     margin-top: 2%;
     margin-left: 40%;
 
-    color: white;
+    color: black;
     font-family: 'Courier New', Courier, monospace;
     font-size: 50px;
   }
@@ -32,15 +32,15 @@ body {
     margin-top: 2%;
     margin-left: 45%;
 
-    color: white;
+    color: black;
     font-family: 'Courier New', Courier, monospace;
     font-size: 50px;
   }
   .weather_type{
     margin-top: 2%;
-    margin-left: 40%;
+    margin-left: 45.5%;
 
-    color: white;
+    color: black;
     font-family: 'Courier New', Courier, monospace;
     font-size: 50px;
   }
