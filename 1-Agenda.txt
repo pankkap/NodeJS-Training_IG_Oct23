@@ -10,12 +10,24 @@ NPM
     NPM Repository
     Install the packages in two ways
     1. Global 
+    > npm install -g typescript
     2. local 
+    > npm i chalk
 
-    npm install
-    npx tsc
-     
-    Package.json
+    npm install : it is an Installer
+    npx tsc: It is Package Executer
+
+    Package.json: for creating Project Information File
+    > npm init
+    > npm init -y with default information
     Installing Libraris
+    > npm i <package.name> <package_name>
+    package.json is there then 
+    > npm i
     Versioning & Package Updation
+    ^ it indicates update is automatically using update command
+    > npm update
+    > npm i <Package_name>@4.1.2
     Uninstalling Libraris
+    > npm uninstall <package_name>
+
