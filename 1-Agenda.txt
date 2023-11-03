@@ -1,18 +1,21 @@
-Day-1 ES6 concepts
-    - variables (Let, Var and Const), Scopes 
-    - Arrow Function
-    - Destructuring
-    - Restructuring
-    - Rest Operator
-    - Spread Operator
-    - Template String
-    - Class and Objects
+Day-4
+---------------
+Modules Concepts
+	commonjs ES5 -> require
+	ES Module ES6 -> import
+NPM
+	Node Package Manager
+    It is tool used to install, uninstall and update third part libraries
+    It is automatically  available with Node
+    NPM Repository
+    Install the packages in two ways
+    1. Global 
+    2. local 
 
-Day-2 Asynchronous Programming
-    - Asynchronous programming concepts
-    - Callback
-    - Promises
-    - API Call  
-    - Aync-Await
-
-Day-3 Event Handling
+    npm install
+    npx tsc
+     
+    Package.json
+    Installing Libraris
+    Versioning & Package Updation
+    Uninstalling Libraris
