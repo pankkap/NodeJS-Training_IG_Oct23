@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Weather</title>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body onload="onload()">
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col"></div>
+        <div class="col text-center mt-5">
+          <h2>Weather App</h2>
+          <div class="mt-4">
+            <input type="text" class="form-control" placeholder="Input city name" id="cityname" onkeyup="getcitydata(this.value)">
+          </div>
+        </div>
+        <div class="col"></div>
+      </div>
+      <div class="row text-center my-3 disp-data">
+        <h3 id="city"></h3>
+      </div>
+      <div class="mx-5 disp-data">
+        <div class="row mx-5 text-center">
+          <div class="col-2"></div>
+          <div class="col-2">
+            <h6 id="conditions"></h6>
+          </div>
+          <div class="col-6">
+            <h6 id="description"></h6>
+          </div>
+          <div class="col-2"></div>
+        </div>
+      </div>
+      <div class="row disp-data">
+        <div class="col text-center mt-5">
+          <table id="details" class="table">
+            <tr>
+              <th>Temprature</th>
+              <td id="temp"></td>
+              <th>Feel Like</th>
+              <td id="feelslike"></td>
+            </tr>
+            <tr>
+              <th>wind speed</th>
+              <td id="windspeed"></td>
+              <th>cloud cover</th>
+              <td id="cloudcover"></td>
+            </tr>
+            <tr>
+              <th>uv index</th>
+              <td id="uvindex"></td>
+              <th>visibility</th>
+              <td id="visibility"></td>
+            </tr>
+            <tr>
+              <th>sunrise</th>
+              <td id="sunrise"></td>
+              <th>sunset</th>
+              <td id="sunset"></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="row disp-data">
+        <table class="table table-striped text-center p-0" id="datedata">
+          <tr id="objDateTr"></tr>
+          <tr id="objMinTr"></tr>
+          <tr id="objMaxTr"></tr>
+          <tr id="objSunriseTr"></tr>
+          <tr id="objSunsetTr"></tr>
+        </table>
+      </div>
+      <div class="row disp-loader my-5">
+        <div class="d-flex justify-content-center">
+          <h3 class="m-2">Please Wait While We Fetch Your Data...</h3>
+          <div class="spinner-grow text-primary" style="width: 50px; height: 50px;" role="status">
+            <span class="sr-only"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./apicall.js"></script>
+</html>

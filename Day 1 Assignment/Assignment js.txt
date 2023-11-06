@@ -1,0 +1,145 @@
+1.	fn = (...variables) => variables.reduce((x,y)=>x+y,0)
+
+
+1.
+fn = (...variables) => {
+		sum = 0
+		variables.forEach((v) => sum+= v)		
+		return sum
+	};
+console.log(fn(1,1,2))	
+
+2.	
+arr1 = [1,7,2,3,4,5,3,87,78,9]
+
+fn = (arr) => {
+		max = arr[1]
+		arr.forEach((v) => {
+		    if(v>max)
+		        max = v
+		})		
+		return max
+	};
+console.log(fn([...arr1]))
+
+3.
+obj = {name:"ABC", age: 22}
+const {name, age} = obj
+console.log(`Name: ${name}, Age: ${age}`)
+
+4.
+const lib = {
+  mystry: {
+    'Auth A': [
+      { title: 'Title ABC', year: 1820 },
+      { title: 'Title DEF', year: 1818 },
+    ],
+    'Auth B': [
+      { title: 'Title GHI', year: 1890 },
+      { title: 'Title JKL', year: 1999 },
+    ],
+  },
+  novel: {
+    'Auth C': [
+      { title: 'Title MNO', year: 1920 },
+      { title: 'Title PQR', year: 1918 },
+    ],
+    'Auth D': [
+      { title: 'Title STU', year: 1990 },
+      { title: 'Title VWX', year: 2000 },
+    ],
+  },
+};
+
+const book = lib.mystry['Auth B'][0];
+console.log(`Title: ${book.title}, Year: ${book.year}`);
+
+5.
+var x = 10;
+if(x>5){
+    var a=5;
+    let b=6;
+    const c=7;
+    console.log(b)
+    console.log(c)
+    b=8 // will upadte the value then print
+    // c=1 // will throw error as const cannot be updated and has block scope
+    console.log(b)
+    console.log(c)
+}
+console.log(a) // a has global scope although defined inside the block
+// console.log(b) // block scope so will throw error
+console.log(c) // block scope so will throw error
+
+6.
+blogs = [
+    {title: "Title 1", author: "Auth A", body: "Body for the first blog"},
+    {title: "Title 2", author: "Auth B", body: "Body for the second blog"},
+    {title: "Title 3", author: "Auth C", body: "Body for the third blog"},
+    {title: "Title 4", author: "Auth D", body: "Body for the fourth blog"}    
+]
+html = `<html>${blogs.map((b)=>`<div><h1>${b.title}</h1><h4>${b.author}</h4><p>${b.body}</p></div>`).join('')}</html>`
+
+console.log(html)
+
+7.
+function fn(x,y){
+	return x+y
+}
+
+const fn1 = (x,y) => x+y
+
+console.log(fn(1,2),fn1(1,2))
+console.log(fn(2,2),fn1(2,2))
+console.log(fn(3,2),fn1(3,2))
+console.log(fn(4,2),fn1(4,2))
+console.log(fn(5,2),fn1(5,2))
+
+8.
+class Car {
+  constructor(make,model,year) {
+    this.make = make;
+    this.model = model;
+    this.year = year;
+  }
+  
+  getAge = () =>  new Date().getFullYear() - this.year;
+}
+
+const cara = new Car("Toyota", "Camry", 2010);
+const carb = new Car("Chevorlet", "Beat", 2014);
+const carc = new Car("GM", "Suburban", 2020);
+const card = new Car("GM", "B", 2019);
+const care = new Car("GM", "C", 2022);
+console.log(`${cara.make} ${cara.model} of ${cara.year} is ${cara.getAge()} old.`);
+console.log(`${carb.make} ${carb.model} of ${carb.year} is ${carb.getAge()} old.`);
+console.log(`${carc.make} ${carc.model} of ${carc.year} is ${carc.getAge()} old.`);
+console.log(`${card.make} ${card.model} of ${card.year} is ${card.getAge()} old.`);
+console.log(`${care.make} ${care.model} of ${care.year} is ${care.getAge()} old.`);
+
+9.
+fn = (...variables) => {
+		sum = 0
+		variables.forEach((v) => sum+= v)		
+		return sum / variables.length
+	};
+console.log(fn(1,1,2,5,7,3,21))	
+
+
+10.
+data = [
+{name: "A", grade: 2},
+{name: "B", grade: 9},
+{name: "C", grade: 2},
+{name: "D", grade: 7},
+{name: "E", grade: 2},
+{name: "F", grade: 1},
+{name: "G", grade: 3},
+{name: "H", grade: 4},
+]
+
+
+const names = data.map(({ name }) => name);
+const grades = data.map(({ grade }) => grade);
+
+console.log(names, grades)
