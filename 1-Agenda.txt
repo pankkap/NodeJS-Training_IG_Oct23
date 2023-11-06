@@ -1,18 +1,9 @@
-Day-1 ES6 concepts
-    - variables (Let, Var and Const), Scopes 
-    - Arrow Function
-    - Destructuring
-    - Restructuring
-    - Rest Operator
-    - Spread Operator
-    - Template String
-    - Class and Objects
-
-Day-2 Asynchronous Programming
-    - Asynchronous programming concepts
-    - Callback
-    - Promises
-    - API Call  
-    - Aync-Await
-
-Day-3 Event Handling
+Day-5 TypeScript
+- Introduction to Typescript
+- Setting up environment for typescript
+- compilation and execution
+- typescript configuration 
+- Basic Data Types
+    - Implicit Notations
+    - Explicit Notations
+- array and Objects
