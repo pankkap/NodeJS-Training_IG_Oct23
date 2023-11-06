@@ -3,6 +3,8 @@ Day-5 TypeScript
 - Setting up environment for typescript
 - compilation and execution
 - typescript configuration 
+    >TSConfig
+    >tsc --init
 - Basic Data Types
     - Implicit Notations
     - Explicit Notations
