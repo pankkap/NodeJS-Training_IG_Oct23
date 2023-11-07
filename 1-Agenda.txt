@@ -1,11 +1,8 @@
-Day-5 TypeScript
-- Introduction to Typescript
-- Setting up environment for typescript
-- compilation and execution
-- typescript configuration 
-    >TSConfig
-    >tsc --init
-- Basic Data Types
-    - Implicit Notations
-    - Explicit Notations
-- array and Objects
+Typescript Part-2
+  - functions
+  - type Alias
+  - casting
+  - DOM Manipulation
+  - Class, Objects
+  - Inheritance, Interfaces 
+  - abstrct class
